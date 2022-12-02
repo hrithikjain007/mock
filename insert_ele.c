@@ -1,3 +1,6 @@
+
+//insert element to an array 
+
 #include<stdio.h>
 #include<stdlib.h>
 void insert(int *);
