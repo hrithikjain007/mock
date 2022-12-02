@@ -1,4 +1,6 @@
- #include<stdio.h>
+//  smallest word in sentence 
+
+#include<stdio.h>
  #include<string.h>
  void main()
  {
@@ -9,18 +11,18 @@
    l= strlen(s);  
    for(i=0;i<=l;i++)
    {
-           printf("\n 1111111111\n");
+       //     printf("\n 1111111111\n");
         
      if((s[i]!=' ')&&(s[i]!='\0'))
       {
-         printf("\n 222222222\n");
+         //printf("\n 222222222\n");
          wl++;
          
           continue;
        }
         if(wl<sw||sw==0)
        {
-               printf("\n 33333333333\n");
+          //     printf("\n 33333333333\n");
           sw=wl;
           pos=i-sw;
          // pos=i;
@@ -37,3 +39,4 @@
          printf("\n smallest string is   %s \n",t);
          
  }
+
